@@ -1,0 +1,67 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navleft ul {
+    display: flex;
+}
+
+.navleft li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navleft a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contentleft, .contentright {
+    width: 45%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#food-list {
+    list-style: none;
+}
+
+.upload-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
